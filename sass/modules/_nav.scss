@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap');
+
+$nav-font: 'Bungee Shade', cursive;
+
+#mainHeader {
+    padding: 10px;
+    background-size: cover;
+}
+
+#mainNav {
+
+    display: flex;
+    flex-direction: column;
+
+    #button {
+        background: url(../images/burger.svg) center no-repeat;
+        width: 30px;
+        height: 30px;
+        border: 0px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        transition: all 400ms ease;
+        margin-left: auto; 
+        transition: all 400ms ease;
+    }
+
+    ul li a {
+        display: block;
+        padding: 10px 0 10px 0; /*trbl*/
+        color: #f8f8f8;
+        text-align: center;
+        text-decoration: none;
+        font-family: $nav-font;
+        transition: all .3s ease-in;
+
+        &:hover{
+            color: #C180FA;
+        }
+    }
+
+}
+
+#mainNav button.expanded
+{
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+#burgerCon
+{
+  margin-top: 20px;
+  display: none;
+  margin-bottom: 20px;
+}
+
+
+#burgerCon.slideToggle
+{
+  display: block;
+  animation: navAnimation 1.7s 1 0s ease;
+}
+
+@keyframes navAnimation{
+    0%{
+        transform: translateY(8%);
+        opacity: 0;
+        }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+        }
+}
