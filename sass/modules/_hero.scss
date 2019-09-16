@@ -2,3 +2,26 @@
 .hero {
     background: url(../images/background.jpg);
 }
+
+.welcomeCon
+{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.mainText {
+    margin-top: 100px;
+    margin-left: 30px;
+    font-family: $nav-font;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.tagline {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: $nav-font;
+    font-size: 23px;
+    color: aliceblue;
+}
