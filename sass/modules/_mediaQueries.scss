@@ -29,11 +29,11 @@
         display: flex;
         
         ul li a {
-            font-size: 20px;
-            margin-left: 40px;
+            font-size: 17px;
+			margin-left: 40px;
+			
             &:hover {
                 color: #C180FA;
-                border-bottom: solid 3px;
                 padding-bottom: 8px;
             }
         }
