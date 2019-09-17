@@ -1,0 +1,47 @@
+@media screen and (min-width: 1024px) {
+
+    #mainHeader
+	{
+		display: flex;
+		flex-direction: row;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0;
+		padding-top: 10px;
+        justify-content: space-between;
+        padding: 15px;
+	}
+	
+	#button
+	{
+		display: none;
+	}
+
+	#logoCon
+	{
+		order: -1;
+		width: 100px;
+		height: 90px;
+	}
+	
+	#burgerCon
+	{
+        display: flex;
+        
+        ul li a {
+            font-size: 20px;
+            margin-left: 40px;
+            &:hover {
+                color: #C180FA;
+                border-bottom: solid 3px;
+                padding-bottom: 8px;
+            }
+        }
+    }
+    
+    #burgerMenu
+	{
+		display: flex;
+		flex-direction: row;
+	}
+}

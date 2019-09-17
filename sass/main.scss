@@ -1,7 +1,15 @@
 @import "_vars";
 @import "modules/_nav";
-@import "modules/_hero";
+@import "modules/_footer";
+@import "modules/_homePage";
+@import "modules/mediaQueries";
+
+
 
 .hidden {
     display: none;
+}
+
+body {
+    background: #161c2d;
 }

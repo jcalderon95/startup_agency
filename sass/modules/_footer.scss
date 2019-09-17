@@ -1,0 +1,56 @@
+footer {
+    max-width: 1200px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    margin-top: 50px;
+    max-width: 390px;
+    
+    img {
+        margin-right: 20px;
+        margin-left: 30px;
+        transition: transform .2s;
+
+        &:hover {
+            transform: scale(1.15);
+        }
+    }
+
+    .addres{
+        color: #f8f8f8;
+        font-family: $main-font;
+        font-size: 17px;
+        margin-top: 8px;
+    }
+}
+
+.phone_number {
+    font-family: $main-font;
+    color: #f8f8f8;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 245px;
+    margin-bottom: 50px;
+}
+
+.socialIcon{
+    transition: transform .2s;
+
+    &:hover{
+        transform: scale(1.15);
+    }
+}
