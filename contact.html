@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="initial-scale=1.0, width=device-width">
+<title>Nova Studios</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1 class="hidden">Nova Studios</h1>
+
+
+	<header id="mainHeader">
+		<nav id="mainNav">
+		<h2 class="hidden">Main Navigation</h2>
+		<button id="button"></button>
+		<div id="burgerCon">
+			<ul id="burgerMenu">
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+			<li><a href="portfolio.html">PORTFOLIO</a></li>
+			</ul>
+			
+		</div>
+		</nav>
+		<div id="logoCon">
+		<!-- <img src="" alt="Nova Studios Logo" id="logo"> -->
+		</div>
+	</header>
+
+<main class="contactPage">
+	<h1 class="hidden">Contact Page</h1>
+	<div class="infoCon">
+		<h2>Address</h2>
+			<div class="infoContent">
+				<img src="images/location.png" alt="Location Icon">
+				<h3>1001 Wellington Street, London, Ontario</h3>
+			</div>
+
+		
+			<h2>Let's Talk</h2>
+				<div class="infoContent">
+					<img src="images/telephone_icon.png" alt="Telefone Icon">
+					<h3>1-187-278-2889</h3>
+				</div>
+
+		
+			<h2>General Support</h2>
+				<div class="infoContent">
+					<img src="images/mail_icon.png" alt="Email Icon">
+					<h3>support@nova.ca</h3>
+				</div>
+
+
+	</div>
+
+    <section class="contactCon">
+        <h2 class="contactHeader">Contact Us</h2>
+
+        <section class="form">
+            <h2 class="hidden">Contact Form</h2>
+
+                <form id="contactForm" action="form.php" method="post">
+                
+                <div class="formField">
+                    <label for="name">Your Name</label>
+                    <input type="text" required id="name" name="fullName" >
+                </div>
+
+                <div class="formField">
+                    <label for="email">Email addres</label>
+                    <input type="email" required id="email"  >
+                </div>
+                
+                <label for="message">Leave Message</label>
+                <textarea name="message" id="message" required cols="50" rows="8"></textarea>
+         
+               
+                <input id="submit" type="submit" value="Submit">
+                </form>
+        </section>
+    
+    </section>
+</main>
+
+
+
+<footer>
+	<div class="location">
+		<img src="images/location.png" alt="Location Icon">
+		<h3 class="addres">1001 Wellington Street, London, Ontario</h3>
+	</div>
+
+	<h3 class="phone_number">1-187-278-2899</h3>
+
+	<div class="socialMedia">
+		<a href="#" class="socialIcon"><img src="images/facebook.png" alt="Facebook Logo"></a>
+		<a href="#" class="socialIcon"><img src="images/instagram.png" alt="Facebook Logo"></a>
+		<a href="#" class="socialIcon"><img src="images/git_hub.png" alt="Facebook Logo"></a>
+		<a href="#" class="socialIcon"><img src="images/behance.png" alt="Facebook Logo"></a>
+	</div>
+</footer>
+
+	<script src="js/main.js"></script>
+</body>
+</html>

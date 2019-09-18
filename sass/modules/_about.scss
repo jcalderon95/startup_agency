@@ -1,0 +1,27 @@
+
+.aboutHeader{
+    text-align: center;
+    font-family: $main-font;
+    color: #f8f8f8;
+    font-size: 22px;
+    margin-top: 60px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.aboutDesc{
+    font-family: $main-font;
+    color: #f8f8f8;
+    font-size: 22px;
+    max-width: 700px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+video{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}

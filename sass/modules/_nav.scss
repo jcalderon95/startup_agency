@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap');
 
-$nav-font: 'Bungee Shade', cursive;
 
 #mainHeader {
     padding: 10px;
@@ -32,9 +30,11 @@ $nav-font: 'Bungee Shade', cursive;
         text-decoration: none;
         font-family: $nav-font;
         transition: all .3s ease-in;
+        font-size: 20px;
 
         &:hover{
             color: #C180FA;
+            transform: scale(1.01);
         }
     }
 
@@ -71,3 +71,5 @@ $nav-font: 'Bungee Shade', cursive;
         opacity: 1;
         }
 }
+
+

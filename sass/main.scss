@@ -1,7 +1,19 @@
 @import "_vars";
 @import "modules/_nav";
-@import "modules/_hero";
+@import "modules/_footer";
+@import "modules/_homePage";
+@import "modules/_mediaQueries";
+@import "modules/_contact";
+@import "modules/about";
+@import "modules/portfolio";
+@import "modules/featurePage";
+
+
 
 .hidden {
     display: none;
+}
+
+body {
+    background: #161c2d;
 }
