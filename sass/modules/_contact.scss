@@ -5,7 +5,8 @@
 }
 
 .contactCon, .infoCon{
-    max-width: 500px;
+    max-width: 600px;
+    height: 700px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -17,6 +18,10 @@
 .infoCon{
 
     margin-bottom: 140px;
+    background: url(../images/contact_background.png) center no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    margin-top: 35px;
 
     h2{
         font-family: $main-font;
