@@ -1,0 +1,38 @@
+.portfolioPage {
+    h2{
+        font-family: $main-font;
+        color: #f8f8f8;
+        font-size: 22px;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 45px;
+    }
+
+    h3{
+        font-family: $main-font;
+        color: #f8f8f8;
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    img{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    button{
+        background-color: #608b8c;
+        font-size: 18px;
+        color: #f8f8f8;
+        font-family: $main-font;
+        border: none;
+        border-radius: 3px;
+        display: block;
+        margin: 0 auto;
+        text-decoration: none;
+        height: 50px;
+        margin-top: 30px;
+    }
+}

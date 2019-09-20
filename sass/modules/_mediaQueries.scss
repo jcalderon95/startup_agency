@@ -4,6 +4,37 @@
 	}
 }
 
+@media screen and (min-width: 660px){
+	.hero {
+		height: 1200px;
+	}
+}
+
+@media screen and (min-width: 800px){
+	.team{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+
+	.hero {
+		height: 1300px;
+	}
+
+	.aboutHero{
+		height: 600px;
+
+		h2{
+			font-size: 40px;
+		}
+
+		h3{
+			font-size: 25px;
+		}
+	}
+
+}
+
 
 @media screen and (min-width: 1024px) {
 
@@ -67,5 +98,41 @@
 
 	 }
 
-	 
+
+	 .teamCon{
+		 display: flex;
+		 flex-direction: row;
+
+		 img{
+			 width: 100%;
+		 }
+	 }
+
+}
+
+@media screen and (min-width: 1050px){
+	.hero {
+		height: 1300px;
+	}
+	
+}
+
+@media screen and (min-width: 1200px){
+	.hero {
+		height: 1200px;
+		background-size: auto;
+	}
+	
+	.aboutHero{
+		height: 800px;
+
+		h2{
+			font-size: 50px;
+		}
+
+		h3{
+			font-size: 35px;
+			line-height: 50px;
+		}
+	}
 }

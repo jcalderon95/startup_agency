@@ -2,11 +2,11 @@
 @import "modules/_nav";
 @import "modules/_footer";
 @import "modules/_homePage";
-@import "modules/_mediaQueries";
 @import "modules/_contact";
 @import "modules/about";
 @import "modules/portfolio";
 @import "modules/featurePage";
+@import "modules/_mediaQueries";
 
 
 
@@ -17,3 +17,17 @@
 body {
     background: #161c2d;
 }
+
+img, embed, object, video 
+{
+  max-width: 100%; 
+}
+
+html {
+  box-sizing: border-box; 
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }

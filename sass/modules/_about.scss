@@ -1,9 +1,10 @@
 
 .aboutHero{
-    background: url(../images/about_hero.jpg) ;
+    background: url(../images/about_hero.jpg);
     background-size: cover;
-    height: 550px;
     margin-bottom: 140px;
+    height: 550px;
+    
     
     h3{
         text-align: center;
@@ -11,6 +12,7 @@
         color: #f8f8f8;
         font-size: 20px;
         line-height: 30px;
+        margin-bottom: 50px;
     }
 }
 
@@ -63,16 +65,15 @@ p{
     max-width: 1320px;
     margin: 0 auto;
 }
-
-
-
         
 .member{
     margin: 0 auto;
     max-width: 330px;
     margin-bottom: 50px;
+    
 
     .tien{
+        position: relative;
         max-width: 330px;
 
             img{
@@ -82,6 +83,7 @@ p{
         }
 
     .jimmy{
+        position: relative;
         max-width: 330px;
 
         img{
@@ -91,6 +93,7 @@ p{
     }
 
     .rayn{
+        position: relative;
         max-width: 330px;
 
         img{
@@ -111,7 +114,7 @@ p{
         border-radius: 3px;
         transition: transform .2s;
         letter-spacing: 1px;
-        border: #608b8c solid 2px;
+        border: #608b8c solid 1px;
         margin-top: 12px;
 
     &:hover{
@@ -121,5 +124,8 @@ p{
     }
 
     }
+  
 }
+
+
 
