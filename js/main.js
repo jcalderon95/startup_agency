@@ -2,13 +2,13 @@ import Team from "./modules/DataObject.js";
 
 (() => {
 
-    
         const button         =      document.querySelector("#button"),
               burgerCon      =      document.querySelector("#burgerCon"),
               teamButton     =      document.querySelectorAll(".teamButton"),
-              bioInfo        =      document.querySelector(".bio-wrapper").children;
+              lbCLose        =      document.querySelectorAll(".lightbox-close");
+              
               
-    
+       
     
         function hamburgerMenu() {
             burgerCon.classList.toggle("slideToggle");
@@ -23,18 +23,40 @@ import Team from "./modules/DataObject.js";
             button.classList.remove('expanded');
             }
         }
+
+      function openLightbox(e){
+            
+             let currentLightbox = e.target.previousElementSibling;
+
+             console.log(currentLightbox);
+
+              currentLightbox.classList.add("lightbox-on");
+      }
+
+      function closeLightbox(e){
+       console.log(e.target);
+       let currentLightbox = e.target.parentElement;
+
+       currentLightbox.classList.remove("lightbox-on");
+       // e.target.classList.remove("lightbox-on");
+
+      }
         
-       function teamData (){
-          console.log(this.textContent);
+       function teamData (e){
     
            let teamMember = this.textContent;
 
-           bioInfo[0].textContent = Team[teamMember].name;
+           let bioInfo  =  e.target.previousElementSibling.children;
+
+           bioInfo[1].textContent = Team[teamMember].name;
+           bioInfo[2].textContent = Team[teamMember].role;
+           bioInfo[3].textContent = Team[teamMember].bio;
+
         } 
         
-        
-    
+        lbCLose.forEach(lighbox => lighbox.addEventListener ('click', closeLightbox));
         teamButton.forEach(button => button.addEventListener('click', teamData));
+        teamButton.forEach(button => button.addEventListener('click',openLightbox));
         button.addEventListener("click", hamburgerMenu, false);
         window.addEventListener("resize", closeMenu);
         

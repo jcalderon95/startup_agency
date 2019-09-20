@@ -6,30 +6,26 @@
 const Team = {
     Tien : {
         name: "Tien",
-        bio: "I don't know where i am... can you please take me home",
-        role: "Professor",
-        avatar: "olaf.jpeg"
+        bio: "lorem ipsum dolere",
+        role: "Designer"
     },
 
     Jimmy: {
         name: "Jimmy",
-        bio: "I love hunny",
-        role: "Professor",
-        avatar: "pooh.jpeg"
+        bio: "Jimmy is the lead developer",
+        role: "Developer"
     },
 
     Rayn: {
         name: "Rayn",
-        bio: "I have more than one look!",
-        role: "Professor",
-        avatar: "zoolander.jpg"
+        bio: "Motion designer",
+        role: "Motion Design"
     },
 
     Rohit: {
         name: "Rohit",
         bio: "not sure where he came from",
-        role: "Coordinator",
-        avatar: "justin.jpeg"
+        role: "Coordinator"
     },    
 }
 
