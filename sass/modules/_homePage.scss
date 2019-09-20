@@ -1,7 +1,8 @@
 
 .hero {
-    background: url(../images/space_mobile.jpg) center center;
+    background: url(../images/hero_space.jpg) center center no-repeat;
     background-size: cover;
+    height: 700px;
     // background: #161c2d;
 }
 
@@ -30,28 +31,5 @@
     color: aliceblue;
 }
 
-.hero2{
-    background: url(../images/hero2.jpg) center;
-    background-size: cover; 
-    max-width: 1000px;
-    margin: 0 auto;
-    height: 400px;
 
-    h3:nth-child(1){
-        font-family: $main-font;
-        color: aliceblue;
-        font-size: 25px;
-        text-align: right;
-        margin-right: 100px;
-        padding-top: 100px;
-        margin-bottom: 20px;
-    }
 
-    h3:nth-child(2){
-        font-family: $main-font;
-        color: aliceblue;
-        font-size: 25px;
-        text-align: right;
-        margin-right: 40px;
-    }
-}

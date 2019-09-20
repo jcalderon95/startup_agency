@@ -1,0 +1,45 @@
+.featurePage{
+
+    h2{
+        font-family: $main-font;
+        font-size: 30px;
+        color: #f8f8f8;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    p{
+        max-width: 800px;
+        display: block;
+        margin: 0 auto;
+        font-size: 20px;
+        line-height: 40px;
+        margin-bottom: 50px;
+
+    }
+
+    .fishermanParagraph{
+        margin-top: 90px;
+    }
+
+    
+
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+
+    h3{
+        font-family: $main-font;
+        font-size: 20px;
+        color: #f8f8f8;
+        text-align: center;
+        margin-top: 55px;
+        margin-bottom: 60px;
+    }
+
+    .mugs{
+        margin-bottom: 50px;
+    }
+}
