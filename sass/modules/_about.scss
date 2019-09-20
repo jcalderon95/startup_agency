@@ -40,8 +40,27 @@
 video{
     display: block;
     margin: 0 auto;
-    margin-bottom: 120px;
+    margin-bottom: 40px;
 }
+
+.videoControls{
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    img{
+        max-width: 60px;
+        transition: transform .2s;
+
+        &:hover{
+            transform: scale(1.15);
+        }
+    }
+}
+
 
 .teamHeader{
     font-family: $main-font;
@@ -79,6 +98,11 @@ p{
             img{
                 max-width: 330px;
                 border-radius: 2px;
+                transition: transform .2s;
+
+                &:hover{
+                    transform: scale(1.01);
+                }
             }
         }
 
@@ -89,6 +113,11 @@ p{
         img{
             max-width: 330px;
             border-radius: 2px;
+            transition: transform .2s;
+
+            &:hover{
+                transform: scale(1.01);
+            }
         }
     }
 
@@ -99,6 +128,11 @@ p{
         img{
             max-width: 330px;
             border-radius: 2px;
+            transition: transform .2s;
+
+            &:hover{
+                transform: scale(1.01);
+            }
         }
     }
 

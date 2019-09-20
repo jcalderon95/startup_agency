@@ -5,7 +5,13 @@ import Team from "./modules/DataObject.js";
         const button         =      document.querySelector("#button"),
               burgerCon      =      document.querySelector("#burgerCon"),
               teamButton     =      document.querySelectorAll(".teamButton"),
-              lbCLose        =      document.querySelectorAll(".lightbox-close");
+              lbCLose        =      document.querySelectorAll(".lightbox-close"),
+              video          =      document.querySelector("video"),
+              play           =      document.querySelector(".play"),
+              pause          =      document.querySelector(".pause"),
+              rewind         =      document.querySelector(".rewind"),
+              mute           =      document.querySelector(".mute"),
+              unmute        =       document.querySelector(".unmute");
               
               
        
@@ -42,7 +48,7 @@ import Team from "./modules/DataObject.js";
 
       }
         
-       function teamData (e){
+      function teamData (e){
     
            let teamMember = this.textContent;
 
@@ -52,13 +58,39 @@ import Team from "./modules/DataObject.js";
            bioInfo[2].textContent = Team[teamMember].role;
            bioInfo[3].textContent = Team[teamMember].bio;
 
-        } 
+       } 
+
+       function playVideo(){
+              video.play();
+       }
+
+       function pauseVideo(){
+              video.pause(true);
+       }
+       
+       function rewindVideo(){
+              video.currentTime = 0;
+              playVideo();
+       }
+
+       function muteVideo(){
+              video.volume = 0;
+       }
+
+       function unmuteVideo(){
+              video.volume = 1;
+       }
+
         
         lbCLose.forEach(lighbox => lighbox.addEventListener ('click', closeLightbox));
         teamButton.forEach(button => button.addEventListener('click', teamData));
         teamButton.forEach(button => button.addEventListener('click',openLightbox));
         button.addEventListener("click", hamburgerMenu, false);
         window.addEventListener("resize", closeMenu);
-        
+        play.addEventListener('click', playVideo);
+        pause.addEventListener('click', pauseVideo);
+        rewind.addEventListener('click', rewindVideo);
+        mute.addEventListener('click', muteVideo);
+        unmute.addEventListener('click', unmuteVideo);
     })();
     

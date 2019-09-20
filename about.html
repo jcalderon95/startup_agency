@@ -14,9 +14,7 @@
 
 <div class="aboutHero">
 	<header id="mainHeader">
-			<div id="logoCon">
-					<img src="images/logo-bright.svg" alt="Nova Studios Logo" id="logo">
-			</div>
+			
 		<nav id="mainNav">
 		<h2 class="hidden">Main Navigation</h2>
 		<button id="button"></button>
@@ -30,7 +28,9 @@
 			
 		</div>
 		</nav>
-		
+		<div id="logoCon">
+				<img src="images/logo-bright.svg" alt="Nova Studios Logo" id="logo">
+		</div>
 	</header>
 
 	<h2 class="aboutHeader">Nova Studios</h2>
@@ -44,13 +44,19 @@
     <p class="aboutDesc">Our main goal is to help you achieve yours by working together to create an effective digital strategy for your business.</p>
 
     <video controls>
-        <source src="video/" type="video/mp4">
+        <source src="video/nova-video.mp4" type="video/mp4" >
         <source src="myVideo.webm" type="video/webm">
         <p>Your browser doesn't support HTML5 video. Here is
        a <a href="myVideo.mp4">link to the video</a> instead.</p>
 	</video>
 	
-
+	<div class="videoControls">
+		<img class="play" src="images/icon-play.svg" alt="Play Button">
+		<img class="pause" src="images/icon-pause.svg" alt="Pause Button">
+		<img class="rewind" src="images/icon-rewind.svg" alt="Rewind Button">
+		<img class="mute" src="images/icon-mute.svg" alt="Mute Button">
+		<img class="unmute" src="images/icon-unmute.svg" alt="Unmute Button">
+	</div>
 	
 
 		<h2 class="teamHeader">Our Team</h2>
@@ -122,8 +128,16 @@
 				<div class="member">
 					<div class="rayn">
 							<img src="images/rayn.jpg" alt="Sonali Photo">
+							<div class="lightbox" >
+									<span class="lightbox-close">X</span>
+									<h2 class="u-name"></h2>
+									<h3 class="u-role"></h3>
+									<p class="u-bio"></p>
+			
+							</div>
+							<button class="teamButton">Rohit</button>
 					</div>
-					<button class="teamButton">Rohit</button>
+					
 				</div>
 		</div>
 			
