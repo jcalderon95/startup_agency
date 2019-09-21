@@ -12,7 +12,7 @@
         font-family: $main-font;
         color: #f8f8f8;
         text-align: center;
-        font-size: 18px;
+        font-size: 25px;
         margin-bottom: 20px;
     }
 
@@ -31,8 +31,13 @@
         border-radius: 3px;
         display: block;
         margin: 0 auto;
-        text-decoration: none;
         height: 50px;
         margin-top: 30px;
+
+
+    }
+
+    a{
+        text-decoration: none;
     }
 }

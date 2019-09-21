@@ -12,8 +12,8 @@ const Team = {
 
     Jimmy: {
         name: "Jimmy",
-        bio: "Jimmy is the lead developer",
-        role: "Developer"
+        bio: "Jimmy is the our led developer with more than a decade of experience in the field, he has created, developed and designed functional and effective websites and mobile applicatons that our clients and their users love. He also enjoys wroking on photography, 3D animations and montion graphics",
+        role: "Lead Developer"
     },
 
     Rayn: {
@@ -24,7 +24,7 @@ const Team = {
 
     Rohit: {
         name: "Rohit",
-        bio: "not sure where he came from",
+        bio: "",
         role: "Coordinator"
     },    
 }
