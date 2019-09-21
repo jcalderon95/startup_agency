@@ -69,6 +69,32 @@
     height: 400px;
 }
 
+.partners{
+    max-width: 1040px;
+    margin: 0 auto;
+
+    .partnerHeader{
+        font-family: $main-font;
+        color: #f8f8f8;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 80px;
+    }
+
+    .partnersCon{
+        // display: flex;
+        // flex-direction: column;
+
+        img{
+            max-width: 257px;
+            // max-height: 270px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 90px;
+        }
+    }
+}
 
 
 

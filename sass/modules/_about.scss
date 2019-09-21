@@ -57,10 +57,9 @@ video{
 
         &:hover{
             transform: scale(1.15);
-        }
     }
 }
-
+}
 
 .teamHeader{
     font-family: $main-font;
@@ -89,24 +88,12 @@ p{
     margin: 0 auto;
     max-width: 330px;
     margin-bottom: 50px;
+    padding: 10px;
     
 
-    .tien{
-        position: relative;
-        max-width: 330px;
 
-            img{
-                max-width: 330px;
-                border-radius: 2px;
-                transition: transform .2s;
 
-                &:hover{
-                    transform: scale(1.01);
-                }
-            }
-        }
-
-    .jimmy{
+    .rayn, .rohit, .jimmy, .tien {
         position: relative;
         max-width: 330px;
 
@@ -114,21 +101,7 @@ p{
             max-width: 330px;
             border-radius: 2px;
             transition: transform .2s;
-
-            &:hover{
-                transform: scale(1.01);
-            }
-        }
-    }
-
-    .rayn{
-        position: relative;
-        max-width: 330px;
-
-        img{
-            max-width: 330px;
-            border-radius: 2px;
-            transition: transform .2s;
+            height: 435px;
 
             &:hover{
                 transform: scale(1.01);
@@ -162,9 +135,9 @@ p{
 }
 
 .lightbox{
+    width: 330px;
     position: absolute;
 	text-align: center;
-	width: 100%;
 	top: 0;
 	background-color: rgba(40, 48, 72, 0.934);
 	height: 435px;
@@ -192,7 +165,7 @@ p{
         font-family: $main-font;
         color: #f8f8f8;
         font-size: 15px;
-        max-width: 330px;
+        max-width: 300px;
         display: block;
         margin: 0 auto;
         width: 280px;

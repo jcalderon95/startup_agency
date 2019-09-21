@@ -53,6 +53,12 @@
 		}
 	}
 
+	.partnersCon{
+		display: flex;
+		flex-direction: row;
+
+	}
+
 }
 
 
@@ -131,11 +137,23 @@
 
 	 .hero{
 		 height: 800px;
+
+		 .welcomeDesc{
+			 font-size: 22px;
+			 line-height: 37px;
+			 margin-bottom: 100px;
+		 }
+
+		 .subHeading{
+			 font-size: 30px;
+
+		 }
 	 }
 
 	 .hero2{
 		height: 600px ;
 	}
+
 }
 
 

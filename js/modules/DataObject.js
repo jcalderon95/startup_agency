@@ -6,7 +6,7 @@
 const Team = {
     Tien : {
         name: "Tien",
-        bio: "lorem ipsum dolere",
+        bio: "Hi! I'm Tien. I'm a junior graphic designer in London, ON.",
         role: "Designer"
     },
 
@@ -18,14 +18,14 @@ const Team = {
 
     Rayn: {
         name: "Rayn",
-        bio: "Motion designer",
+        bio: "Rayn makes all your essential animations and motion graphics for your blog posts and social media feed.",
         role: "Motion Design"
     },
 
     Rohit: {
         name: "Rohit",
-        bio: "",
-        role: "Coordinator"
+        bio: "Rohit brings all the big words and money maker lines for everything that is the face of your trade.",
+        role: "Content Creator"
     },    
 }
 
