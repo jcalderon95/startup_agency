@@ -6,7 +6,7 @@
 const Team = {
     Tien : {
         name: "Tien",
-        bio: "lorem ipsum dolere",
+        bio: "Hi! I'm Tien. I'm a junior graphic designer in London, ON.",
         role: "Designer"
     },
 
