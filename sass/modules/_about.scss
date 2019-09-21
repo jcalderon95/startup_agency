@@ -57,10 +57,9 @@ video{
 
         &:hover{
             transform: scale(1.15);
-        }
     }
 }
-
+}
 
 .teamHeader{
     font-family: $main-font;
@@ -89,39 +88,12 @@ p{
     margin: 0 auto;
     max-width: 330px;
     margin-bottom: 50px;
+    padding: 10px;
     
 
-    .tien{
-        position: relative;
-        max-width: 330px;
 
-            img{
-                max-width: 330px;
-                border-radius: 2px;
-                transition: transform .2s;
 
-                &:hover{
-                    transform: scale(1.01);
-                }
-            }
-        }
-
-    .jimmy{
-        position: relative;
-        max-width: 330px;
-
-        img{
-            max-width: 330px;
-            border-radius: 2px;
-            transition: transform .2s;
-
-            &:hover{
-                transform: scale(1.01);
-            }
-        }
-    }
-
-    .rayn{
+    .rayn, .rohit, .jimmy, .tien {
         position: relative;
         max-width: 330px;
 
