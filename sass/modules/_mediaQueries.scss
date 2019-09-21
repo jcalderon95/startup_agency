@@ -4,10 +4,33 @@
 	}
 }
 
-@media screen and (min-width: 660px){
-	.hero {
-		height: 1200px;
+@media screen and (min-width: 600px){
+	.hero2{
+		height: 400px ;
+
+		h3:nth-child(1){
+			padding-top: 170px; 
+		}
 	}
+
+	
+}
+
+@media screen and (min-width: 700px){
+	.hero2{
+		height: 450px ;
+
+
+		h3{
+			font-size: 30px;
+		}
+	
+		h3:nth-child(1){
+			padding-top: 190px; 
+		}
+	}
+
+	
 }
 
 @media screen and (min-width: 800px){
@@ -17,20 +40,23 @@
 		justify-content: space-evenly;
 	}
 
-	.hero {
-		height: 1300px;
-	}
+	.hero2{
+		height: 500px ;
 
-	.aboutHero{
-		height: 600px;
-
-		h2{
-			font-size: 40px;
-		}
 
 		h3{
-			font-size: 25px;
+			font-size: 30px;
 		}
+	
+		h3:nth-child(1){
+			padding-top: 190px; 
+		}
+	}
+
+	.partnersCon{
+		display: flex;
+		flex-direction: row;
+
 	}
 
 }
@@ -109,36 +135,43 @@
 		 }
 	 }
 
+	 .hero{
+		 height: 800px;
+
+		 .welcomeDesc{
+			 font-size: 22px;
+			 line-height: 37px;
+			 margin-bottom: 100px;
+		 }
+
+		 .subHeading{
+			 font-size: 30px;
+
+		 }
+	 }
+
+	 .hero2{
+		height: 600px ;
+	}
+
 }
 
-@media screen and (min-width: 1050px){
-	// .hero {
-	// 	height: 1300px;
-	// 	background: none;
-	// }
+
+@media screen and (min-width: 1300px){
+	
+	.hero{
+		height: 900px;
+	}
 
 	.hero2{
-		background: url(../images/laptop_hero.png);
-	}
-	
-}
-
-@media screen and (min-width: 1200px){
-	.hero {
-		height: 1200px;
-		background-size: auto;
-	}
-	
-	.aboutHero{
-		height: 800px;
-
-		h2{
-			font-size: 50px;
-		}
+		height: 700px ;
 
 		h3{
-			font-size: 35px;
-			line-height: 50px;
+			font-size: 40px;
+		}
+	
+		h3:nth-child(1){
+			padding-top: 300px; 
 		}
 	}
 }

@@ -1,35 +1,101 @@
 
 .hero {
-    background: url(../images/hero_space.jpg) center center no-repeat;
+    background: url(../images/hero.png) center center no-repeat;
     background-size: cover;
     height: 700px;
     // background: #161c2d;
+
+    .mainText {
+        margin-top: 70px;
+        // text-align: center;
+        padding: 10px;
+        margin-left: 20;
+        font-family: $main-font;
+        font-size: 40px;
+        color: aliceblue;
+        font-weight: bold;
+    }
+    
+    .tagline {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 100px;
+        font-family: $main-font;
+        font-size: 40px;
+        color: aliceblue;
+        font-weight: bold;
+    }
+
+
+    p{
+        font-size: 18px;
+        margin-top: 60px;
+    }
+
+   .subHeading{
+       color: #f8f8f8;
+       font-family: $main-font;
+        font-size: 20px;
+        text-align: center;
+   }
+    
+}
+
+.hero2{
+    background: url(../images/hero2.png) center center no-repeat;
+    background-size: cover;
+    height: 300px;
+
+    h3{
+        font-family: $main-font;
+        font-size: 20px;
+        color: #f8f8f8;
+        margin-right: 90px;
+        padding-top: 100px;
+        text-align: right;
+    }
+
+    h3:nth-child(2){
+        padding-top: 20px;
+        margin-left: 20px;
+    }
 }
 
 .welcomeCon
 {
     max-width: 1000px;
     margin: 0 auto;
-    // padding-bottom: 100px;
+    padding-bottom: 100px;
     height: 400px;
 }
 
+.partners{
+    max-width: 1040px;
+    margin: 0 auto;
 
-.mainText {
-    margin-top: 70px;
-    margin-left: 30px;
-    font-family: $main-font;
-    font-size: 25px;
-    color: aliceblue;
+    .partnerHeader{
+        font-family: $main-font;
+        color: #f8f8f8;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 80px;
+    }
+
+    .partnersCon{
+        // display: flex;
+        // flex-direction: column;
+
+        img{
+            max-width: 257px;
+            // max-height: 270px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 90px;
+        }
+    }
 }
 
-.tagline {
-    margin-top: 30px;
-    margin-left: 50px;
-    font-family: $main-font;
-    font-size: 23px;
-    color: aliceblue;
-}
 
 
 
